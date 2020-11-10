@@ -146,7 +146,7 @@ contract UNI_FARM_USDT is Auth {
   uint public uniUsdt = 2000000; // 2$ in decimal 6
   uint blockPerDay = 28800;
   uint profitRate = 1000;
-  IBEP20 uniToken = IBEP20(0x17bc015607Fdf93e7C949e9Ca22f96907cFBeF88);
+  IBEP20 uniToken = IBEP20(0x5b52724fc91339f574a4738a819d7d1f60730c60);
   IBEP20 usdtToken = IBEP20(0x55d398326f99059fF775485246999027B3197955);
 
   event Joined(address indexed farmer, uint amount);
